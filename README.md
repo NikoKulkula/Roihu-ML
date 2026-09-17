@@ -1,6 +1,6 @@
 # Roihu-ML
 
-Koneoppimisen harjoittelua ja GPU-laskennan testaamista CSC:n Roihu-superkoneella.
+Koneoppimisen harjoittelua ja GPU-laskennan testaamista CSC:n Roihu-supertietokoneella.
 
 Projektissa käytetään **PyTorchia** ja **CIFAR-10**-datasettiä yksinkertaisen koneoppimismallin kouluttamiseen Roihun GPU-ympäristössä.
 
