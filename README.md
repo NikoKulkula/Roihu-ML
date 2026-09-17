@@ -177,6 +177,6 @@ README keskittyy Roihun käyttöönottoon. Varsinainen ML-harjoitus ja sen ohjee
 
 * [CSC – Student quick start](https://docs.csc.fi/support/tutorials/student_quick/)
 * [CSC – Batch job partitions](https://docs.csc.fi/computing/running/batch-job-partitions/)
-* [CSC – Roihu](https://docs.csc.fi/computing/systems-kielo/roihu/)
+* [CSC – Roihu](https://docs.csc.fi/computing/systems-roihu/)
 * [PyTorch – CIFAR-10 tutorial](https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 * [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
