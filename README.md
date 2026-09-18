@@ -34,18 +34,20 @@ Avaa [MyCSC](https://my.csc.fi/) ja valitse:
 
 **Projects → New project**
 
+> **Huomio:** Opiskelijalla voi olla kerrallaan vain yksi aktiivinen opiskelijaprojekti. Jos sinulla on jo aktiivinen opiskelijaprojekti, uutta projektia ei voi luoda ennen kuin nykyinen projekti on päättynyt.
+
 Projektin tiedot voivat olla esimerkiksi:
 
-| Kenttä                         | Arvo                                                                   |
-| ------------------------------ | ---------------------------------------------------------------------- |
-| **Project Name**               | `Roihu-ML-test`                                                        |
-| **Project Description**        | `Opiskeluprojekti, jossa harjoitellaan Roihun GPU-laskentaympäristöä.` |
-| **Primary field of science**   | `Engineering and technology`                                           |
-| **Secondary field of science** | `Other engineering and technologies`                                   |
-| **End date**                   | Valitse projektin päättymispäivä                                       |
-| **Comments**                   | Halutessasi lisätietoa                                                 |
+| **Kenttä** | **Arvo** |
+| --- | --- |
+| **Project Name** | `Roihu-ML-test` |
+| **Project Description** | `Opiskeluprojekti, jossa harjoitellaan Roihun GPU-laskentaympäristöä.` |
+| **Primary field of science** | `Engineering and technology` |
+| **Secondary field of science** | `Other engineering and technologies` |
+| **End date** | Valitse projektin päättymispäivä |
+| **Comments** | Halutessasi lisätietoa |
 
-Opiskelijaprojektin enimmäisaika on 6 kuukautta.
+Opiskelijaprojektin enimmäisaika on **6 kuukautta**.
 
 Projektin nimen ja kuvauksen ei tarvitse olla monimutkaisia. Niissä kerrotaan lähinnä, mihin projektia käytetään.
 
