@@ -1,4 +1,4 @@
-# Roihu-ML
+# Koneoppimisympäristön käyttöönotto CSC:n Roihu-supertietokoneella
 
 Koneoppimisen harjoittelua ja GPU-laskennan testaamista CSC:n Roihu-supertietokoneella.
 
