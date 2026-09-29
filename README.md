@@ -71,7 +71,7 @@ Jos Roihua ei vielä näy, valitse:
 
 Kun Roihu on käytössä, pääset kirjautumaan siihen projektin **Login**-painikkeella.
 
-Palvelun käyttöönotossa ja käynnistyksessä voi olla pieni viive, se voi kestää esimerkiksi noin 30 minuuttia.
+Palvelun käyttöönotossa ja käynnistyksessä voi olla pieni viive, se voi kestää jopa tunnin.
 
 ---
 
