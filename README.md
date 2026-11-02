@@ -4,9 +4,11 @@ Koneoppimisen harjoittelua ja GPU-laskennan testaamista CSC:n Roihu-supertietoko
 
 Projektissa käytetään **PyTorchia** ja **CIFAR-10**-datasettiä yksinkertaisen koneoppimismallin kouluttamiseen Roihun GPU-ympäristössä.
 
-Varsinainen koneoppimistehtävä löytyy notebookista:
+Varsinaiset koneoppimistehtävät löytyvät notebookeista:
 
-**[cifar10_roihu.ipynb](cifar10_roihu.ipynb)**
+1. **[cifar10_roihu.ipynb](cifar10_roihu.ipynb)** – Roihun GPU-ympäristön testaus ja ensimmäinen CNN
+2. **[cifar10_roihu_2.ipynb](cifar10_roihu_2.ipynb)** – CNN-mallin parantaminen ja tulosten analysointi
+3. **[cifar10_roihu_3.ipynb](cifar10_roihu_3.ipynb)** – Rakenna itse: kirjoita työketjun keskeiset osat itse
 
 ---
 
@@ -124,6 +126,8 @@ Siirrä esimerkiksi:
 
 ```text
 cifar10_roihu.ipynb
+cifar10_roihu_2.ipynb
+cifar10_roihu_3.ipynb
 ```
 
 Jupyterin vasemmalla olevaan hakemistoon.
@@ -148,12 +152,14 @@ Roihu Dashboardissa:
 roihu-ml/
 ├── README.md
 ├── cifar10_roihu.ipynb
+├── cifar10_roihu_2.ipynb
+├── cifar10_roihu_3.ipynb
 └── .gitignore
 ```
 
-### Notebook
+### Harjoitus 1
 
-`cifar10_roihu.ipynb` sisältää varsinaisen koneoppimiskokeilun:
+`cifar10_roihu.ipynb` sisältää ensimmäisen koneoppimiskokeilun:
 
 * ympäristön tarkistamisen
 * CIFAR-10-datan lataamisen
@@ -164,6 +170,32 @@ roihu-ml/
 * mallin arvioinnin
 * tulosten tulkinnan
 * seuraavia kokeiluja
+
+### Harjoitus 2
+
+`cifar10_roihu_2.ipynb` jatkaa ensimmäisestä harjoituksesta ja parantaa mallia:
+
+* datan normalisointi
+* data augmentation
+* train / validation / test -jako
+* syvempi CNN, jossa BatchNorm ja Dropout
+* learning rate scheduler (`OneCycleLR`)
+* oppimiskäyrät ja parhaan mallin tallennus
+* luokkakohtainen tarkkuus ja confusion matrix
+* väärin luokiteltujen kuvien tarkastelu
+
+### Harjoitus 3
+
+`cifar10_roihu_3.ipynb` on tehtävämuotoinen harjoitus, jossa opiskelija kirjoittaa koodin itse. Jokaisessa tehtävässä on automaattinen tarkistus, vihje ja piilotettu malliratkaisu:
+
+1. normalisointiarvojen laskeminen
+2. muunnosten ja augmentaation määrittely
+3. train / validation -jako
+4. oma CNN (`conv_block` ja `MyCNN`)
+5. koulutusaskel ja "overfit one batch" -testi
+6. arviointifunktio
+7. confusion matrixin laskeminen
+8. haaste: mallin parantaminen omilla kokeiluilla
 
 README keskittyy Roihun käyttöönottoon. Varsinainen ML-harjoitus ja sen ohjeet löytyvät notebookista.
 
